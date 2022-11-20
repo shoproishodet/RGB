@@ -1,0 +1,16 @@
+# ninja log v5
+261	3694	1668969459968977070	CMakeFiles/36_5_1.dir/36_5_1_autogen/mocs_compilation.cpp.o	401b22f347cb7ef1
+1660	2038	1668969668395394176	36_5_1	6ca16b22e6511a5e
+2	5	0	36_5_1_autogen/mocs_compilation.cpp	9734d85a22f65066
+0	68	1668969972005344702	build.ninja	ac5cd616775aa1c4
+5	1660	1668969668019382234	CMakeFiles/36_5_1.dir/Circle.cpp.o	a5f80c2b764af3df
+2	5	0	/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/36_5_1_autogen/mocs_compilation.cpp	9734d85a22f65066
+155	2050	1668969626486070522	CMakeFiles/36_5_1.dir/main.cpp.o	f307365f5a68d07e
+0	173	0	src/CMakeFiles/36_5_1_autogen	9cc4f94e8eb9cc57
+0	173	0	src/36_5_1_autogen/mocs_compilation.cpp	9cc4f94e8eb9cc57
+0	173	0	/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/CMakeFiles/36_5_1_autogen	9cc4f94e8eb9cc57
+0	173	0	/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/36_5_1_autogen/mocs_compilation.cpp	9cc4f94e8eb9cc57
+173	2173	1668969980021614258	src/CMakeFiles/36_5_1.dir/main.cpp.o	96bc505d8b90794b
+173	2513	1668969980361625698	src/CMakeFiles/36_5_1.dir/36_5_1_autogen/mocs_compilation.cpp.o	24988f624e02391f
+173	2514	1668969980361625698	src/CMakeFiles/36_5_1.dir/Circle.cpp.o	6dcf11b80646873e
+2514	2900	1668969980745638618	src/36_5_1	5595a994af74458
