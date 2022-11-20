@@ -10,9 +10,8 @@
 class Circle : public QWidget {
     Q_OBJECT
 private:
-    QColor mColor = {0, 0, 0};
+    QColor mColor {0, 0, 0};
     const int mRadius {250};
-    const int mWindowSize {300};
 public:
     Circle() = delete;
 

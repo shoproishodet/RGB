@@ -24,11 +24,11 @@ void Circle::paintEvent(QPaintEvent *p) {
 Circle::Circle(QWidget *parent) {
     setParent(parent);
     setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-    setGeometry(mWindowSize, mWindowSize, mWindowSize, mWindowSize);
+    setGeometry(mRadius, mRadius, mRadius, mRadius);
 }
 
 QSize Circle::sizeHint() const {
-    return {mWindowSize, mWindowSize};
+    return {mRadius, mRadius};
 }
 
 QSize Circle::minimumSizeHint() const {

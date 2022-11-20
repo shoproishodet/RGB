@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 
     std::unique_ptr<QGridLayout> layout = std::make_unique<QGridLayout>(mainWindow.get());
 
-    mainWindow->setFixedSize(275,350);
+    mainWindow->setFixedSize(275, 400);
 
     rSlider->setMinimum(min);
     rSlider->setMaximum(max);
