@@ -20,20 +20,25 @@ int main(int argc, char *argv[]) {
     std::unique_ptr<QSlider> bSlider = std::make_unique<QSlider>(mainWindow.get());
 
     std::unique_ptr<Circle> circle = std::make_unique<Circle>(mainWindow.get());
-    
+
     std::unique_ptr<QGridLayout> layout = std::make_unique<QGridLayout>(mainWindow.get());
+
+    mainWindow->setFixedSize(275,350);
 
     rSlider->setMinimum(min);
     rSlider->setMaximum(max);
     rSlider->setOrientation(Qt::Horizontal);
+    rSlider->setToolTip("Red");
 
     gSlider->setMinimum(min);
     gSlider->setMaximum(max);
     gSlider->setOrientation(Qt::Horizontal);
+    gSlider->setToolTip("Green");
 
     bSlider->setMinimum(min);
     bSlider->setMaximum(max);
     bSlider->setOrientation(Qt::Horizontal);
+    bSlider->setToolTip("Blue");
 
     layout->addWidget(circle.get(), 0, 0);
 

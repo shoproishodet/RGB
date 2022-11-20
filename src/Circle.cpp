@@ -16,7 +16,7 @@ void Circle::paintEvent(QPaintEvent *p) {
 
     painter.setPen(pen);
     painter.setBrush(brush);
-    painter.drawEllipse((mWindowSize - mRadius) / 2, (mWindowSize - mRadius) / 2, mRadius, mRadius);
+    painter.drawEllipse(0, 0, mRadius, mRadius);
 
     painter.end();
 }
