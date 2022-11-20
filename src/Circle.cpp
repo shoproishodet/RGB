@@ -4,7 +4,6 @@
 
 void Circle::paintEvent(QPaintEvent *p) {
     QPainter painter;
-
     painter.begin(this);
 
     QPen pen;

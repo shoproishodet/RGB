@@ -14,6 +14,7 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 set(HEADERS ${CMAKE_SOURCE_DIR}/headers)
+
 add_subdirectory(src)
 
 target_link_libraries(36_5_1

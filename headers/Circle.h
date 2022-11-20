@@ -25,7 +25,9 @@ public:
     QSize minimumSizeHint() const override;
 
     void ChangeR(int value);
+
     void ChangeB(int value);
+
     void ChangeG(int value);
 
 };

@@ -14,10 +14,13 @@ int main(int argc, char *argv[]) {
     const int max = 255;
 
     std::unique_ptr<QWidget> mainWindow = std::make_unique<QWidget>(nullptr);
+
     std::unique_ptr<QSlider> rSlider = std::make_unique<QSlider>(mainWindow.get());
     std::unique_ptr<QSlider> gSlider = std::make_unique<QSlider>(mainWindow.get());
     std::unique_ptr<QSlider> bSlider = std::make_unique<QSlider>(mainWindow.get());
+
     std::unique_ptr<Circle> circle = std::make_unique<Circle>(mainWindow.get());
+    
     std::unique_ptr<QGridLayout> layout = std::make_unique<QGridLayout>(mainWindow.get());
 
     rSlider->setMinimum(min);
@@ -33,6 +36,7 @@ int main(int argc, char *argv[]) {
     bSlider->setOrientation(Qt::Horizontal);
 
     layout->addWidget(circle.get(), 0, 0);
+
     layout->addWidget(rSlider.get(), 1, 0);
     layout->addWidget(gSlider.get(), 2, 0);
     layout->addWidget(bSlider.get(), 3, 0);
