@@ -1,6 +1,0 @@
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/CMakeFiles/36_5_1.dir
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/alexandr/DevFiles/courses/36.5.1/cmake-build-debug/src/CMakeFiles/36_5_1_autogen.dir
